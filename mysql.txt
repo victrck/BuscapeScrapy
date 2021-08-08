@@ -1,0 +1,1 @@
+SELECT produto, count() FROM iniciacao.buscape group by(produto) order by(produto);
